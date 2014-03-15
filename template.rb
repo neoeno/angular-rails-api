@@ -4,7 +4,10 @@ gem 'slim'
 gem_group :development, :test do
   gem 'rspec-rails'
   gem 'jazz_hands'
+  gem 'spring'
 end
+
+run 'bundle install'
 
 generate 'rspec:install'
 
